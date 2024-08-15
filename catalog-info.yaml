@@ -1,0 +1,8 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: cluster-idp-install-location
+  description: Location to import all cluster-idp-install catalog components
+spec:
+  targets:
+    - ./.platform/*.yaml
